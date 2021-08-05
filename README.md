@@ -6,20 +6,6 @@ Nesse desafio, você deverá criar uma aplicação para treinar o que 
 
 Essa será uma aplicação de listagem e cadastro de usuários. Para que a listagem de usuários funcione, o usuário que solicita a listagem deve ser um admin (mais detalhes ao longo da descrição).
 
-## Template da aplicação
-
-Para te ajudar nesse desafio, criamos para você esse modelo que você deve utilizar como um template do GitHub.
-
-O template está disponível na seguinte URL:  
-
-[rocketseat-education/ignite-template-introducao-ao-SOLID](https://github.com/rocketseat-education/ignite-template-introducao-ao-SOLID)
-
-**Dica**: Caso não saiba utilizar repositórios do GitHub como template, temos um guia em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664).**
-
-Agora navegue até a pasta criada, abra no Visual Studio Code e execute o comando `yarn` no seu terminal para instalar todas as dependências. A estrutura do seu projeto deve estar assim:
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1fae291a-6a61-45af-8819-775d34e91c76/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1fae291a-6a61-45af-8819-775d34e91c76/Untitled.png)
-
 ## Rotas da aplicação
 
 ### POST `/users`
@@ -41,8 +27,6 @@ A rota deve receber, pelo header da requisição, uma propriedade `user_id` cont
 ## Específicação dos testes
 
 Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
-
-Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664)**
 
 Para esse desafio, temos os seguintes testes:
 
