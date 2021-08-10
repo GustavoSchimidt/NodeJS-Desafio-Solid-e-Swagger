@@ -9,3 +9,5 @@ const turnUserAdminController = new TurnUserAdminController(
 );
 
 export { turnUserAdminController };
+
+// Aqui é feito todas as inicializações e é exportado para dentro da nossa rota.

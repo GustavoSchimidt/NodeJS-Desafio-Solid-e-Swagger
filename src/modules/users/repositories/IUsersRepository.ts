@@ -1,10 +1,12 @@
 import { User } from "../model/User";
 
+// DTO => Data transfer object, responsável por fazer a transferencia de uma class para outra.
 interface ICreateUserDTO {
   name: string;
   email: string;
 }
 
+// É o "contrato" do respositório, ou seja, a implementação
 interface IUsersRepository {
   create({ name, email }: ICreateUserDTO): User;
   findById(id: string): User | undefined;

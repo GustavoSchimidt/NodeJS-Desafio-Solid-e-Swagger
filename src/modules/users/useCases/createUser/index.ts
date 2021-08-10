@@ -7,3 +7,5 @@ const createUserUseCase = new CreateUserUseCase(usersRepository);
 const createUserController = new CreateUserController(createUserUseCase);
 
 export { createUserController };
+
+// Aqui é feito todas as inicializações que será exportada para dentro da nossa rota.

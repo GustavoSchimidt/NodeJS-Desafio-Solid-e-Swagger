@@ -9,3 +9,5 @@ const showUserProfileController = new ShowUserProfileController(
 );
 
 export { showUserProfileController };
+
+// Aqui é feito todas as inicializações e é exportado para dentro da nossa rota.
