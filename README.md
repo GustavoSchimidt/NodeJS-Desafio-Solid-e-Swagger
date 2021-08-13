@@ -1,8 +1,9 @@
-# introducao-ao-SOLID
+# Desafio 01 e 02: Introdução ao SOLID e Documentando com Swagger
 
 # 💻 Objetivo do desafio
 
 Criar uma aplicação de listagem e cadastro de usuários utilizando os conceitos de SOLID aprendidos. Para que a listagem de usuários funcione, o usuário que solicita a listagem deve ser um admin.
+Documentar as rotas com o Swagger.
 
 ## Rotas da aplicação
 
